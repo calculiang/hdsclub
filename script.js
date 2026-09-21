@@ -19,7 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
-
+  /* ---- for gallery ---- */
+var GITHUB_OWNER  = 'YOUR-GITHUB-USERNAME';
+var GITHUB_REPO   = 'YOUR-REPO-NAME';
+var GITHUB_BRANCH = 'main';
   /* ---- mark active nav link based on current file ---- */
   var current = (location.pathname.split('/').pop() || 'index.html');
   document.querySelectorAll('.nav-links a[href]').forEach(function (a) {
